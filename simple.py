@@ -4,6 +4,8 @@
 Created on Fri Jan 27 22:52:30 2023
 
 @author: Cheetah
+
+Learning simple functions.
 """
 
 def range_of_list(x):
