@@ -1,16 +1,14 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 27 23:12:19 2023
 
-@author: Cheetah
 """
 
-#import learning.functions.simple as fs
-import learning.random_gen as rg
-#import numpy as np
-#import random
 
+import learning.classes.random_gen as rg
+
+
+# def main():
 
 in_nums = [10, 20, 30, 40, 50, 60]
 in_probs = [.1, .2, .3, .2, .15, .05]
@@ -26,5 +24,9 @@ in_dict = {in_nums[i]: in_probs[i] for i in range(len(in_nums))}
 for num in out_probs.keys():
     out_probs[num] = [out_probs[num]]
     out_probs[num].append(in_dict[num])
-    
+
 print(out_probs)
+
+
+# if __name__ == "__main__":
+#     main()
