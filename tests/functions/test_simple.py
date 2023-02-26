@@ -5,8 +5,6 @@ Tests for learning/functions/simple.py
 """
 
 import pytest
-
-
 import learning.functions.simple as fs
 
 
@@ -45,3 +43,8 @@ def test_list_mod_only():
 
 def test_list_merge():
     assert fs.list_merge([1, 2, 3], [5, 6, 7]) == [(1, 5), (2, 6), (3, 7)]
+
+
+def test_list_to_dict():
+    assert fs.list_to_dict([1, 2, 3], ['a', 'b', 'c']) == \
+                            {1: 'a', 2: 'b', 3: 'c'}

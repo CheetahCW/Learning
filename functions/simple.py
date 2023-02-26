@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 27 22:52:30 2023
-
 Learning simple functions
 """
 
@@ -35,3 +33,8 @@ def list_mod_only(x, a):
 def list_merge(x, y):
     """ Return pairs from each list """
     return list(zip(x, y))
+
+
+def list_to_dict(x, y):
+    """ Returns a dictionary made of two lists """
+    return dict(zip(x, y))

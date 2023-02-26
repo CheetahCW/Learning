@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import learning.functions.simple as fs
+import functions.simple as fs
 
 
 # def main():
@@ -17,6 +17,8 @@ print(fs.list_add_value(x, 2))
 print(fs.list_mod_only(x, 4))
 
 print(fs.list_merge(x, y))
+
+print(fs.list_to_dict(x, y))
 
 
 # if __name__ == "__main__":

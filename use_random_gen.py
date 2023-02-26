@@ -5,7 +5,7 @@ Created on Fri Jan 27 23:12:19 2023
 """
 
 
-import learning.classes.random_gen as rg
+import classes.random_gen as rg
 
 
 # def main():

@@ -1,1 +1,1 @@
-from learning.functions import simple
+# -*- coding: utf-8 -*-

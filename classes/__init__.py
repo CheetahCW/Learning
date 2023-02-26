@@ -1,1 +1,1 @@
-from learning.classes import random_gen
+# -*- coding: utf-8 -*-
